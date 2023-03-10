@@ -1,0 +1,15 @@
+1. Declare an integer variable called 'height' to store the pyramid height
+2. Prompt the user to enter a positive integer between 1 and 8 (inclusive) until a valid input is provided:
+    a. Use a do-while loop
+    b. Inside the loop, use the 'get_int' function from the CS50 library to get user input for the pyramid height
+    c. Continue to prompt the user until the input is between 1 and 8 (inclusive)
+3. Loop over each row of the pyramid from 0 to height - 1:
+    a. Use a 'for' loop with an integer variable called 'row' to represent the current row number
+4. For each row, loop over each column of the pyramid from 0 to height - 1:
+    a. Use another 'for' loop with an integer variable called 'col' to represent the current column number
+5. Determine whether to print a space or a hash symbol based on the current row and column:
+    a. Use an 'if-else' statement to check if the column number is greater than or equal to height - (row + 1)
+    b. If it is, print a hash symbol
+    c. If it is not, print a space
+6. Start a new line for the next row of the pyramid by printing a newline character ('\n')
+7. End the program.
